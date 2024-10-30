@@ -699,6 +699,7 @@ nav .bottom-nav .add {
   border: none;
   height: 35px;
   text-wrap: nowrap;
+  color: #FFFFFF;
 }
 
 nav .bottom-nav {
@@ -715,7 +716,7 @@ nav .bottom-nav a {
 }
 
 nav .bottom-nav a:hover {
-  color: #ff7f27 !important;
+  color: #FFFFFF;
   transition: 0.4s;
 }
 
@@ -845,6 +846,11 @@ nav .bottom-nav p {
   }
   .instead {
     display: block;
+  }
+}
+@media (max-width: 990px) {
+  .home {
+    height: 100%;
   }
 }
 /* navbar end *//*# sourceMappingURL=style.css.map */
