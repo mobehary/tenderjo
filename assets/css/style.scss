@@ -381,7 +381,7 @@ nav .bottom-nav p {
     .card-header{
         background-color: #FFF;
         border-bottom: 1px solid #E0E0E0;
-        padding: 20px;
+        padding: 15px 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -419,6 +419,168 @@ nav .bottom-nav p {
             transition: all 0.3s ease-in-out;
         }
     }
+}
+
+.final-date{
+    padding: 8px;
+    border: 1px solid #C3C3C3;
+    h6{
+        font-size: 10px;
+    }
+    .color-div{
+        height: 10px;
+        width: 15px;
+    }
+    span{
+        font-size: 8px !important;
+    }
+}
+
+input{
+    background: #f5f5f5 !important;
+    line-height: normal;
+    border: 1px solid #bebebe;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0 2px 0 0 #bebebe;
+    box-shadow: inset 0 2px 0 0 #bebebe;
+}
+
+.search-form{
+    label{
+        font-size: 12px;
+        color: $font-color;
+        margin-bottom: 5px;
+    }
+}
+.submit-search{
+    @extend .bg-light-green;
+    border: none;
+    width: 100%;
+    height: 45px;
+}
+
+.bg-light-green{
+    color: #FFFFFF;
+    background-color: #98CE44;
+}
+
+.date-card{
+    border-top-color: #E44049;
+    .calender-div{
+        width: 80px;
+        max-width: 80px;
+        .calender-header{
+            background-color: #E44049;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+        .calender-body{
+            background-color: #F5F5F5;
+            h5{
+                color: #E44049;
+            }
+        }
+    }
+}
+.red-circle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #E44049;
+}
+
+.red-browse{
+    font-size: 10px;
+    color: #FFF;
+    background-color: #E44049;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.footer{
+    padding: 30px 0px 0px;
+    .footer-links{
+        li{
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 5px;
+                color: $font-color;
+                transition: all 0.3s;
+                &:hover{
+                    color: $primary-color;
+                    transition: all 0.3s;
+                }
+            }
+            
+        }
+    }
+    .info{
+        a{
+            color: $font-color;
+            transition: all 0.3s;
+            &:hover{
+                color: $primary-color;
+                transition: all 0.3s;
+            }
+        }
+    }
+}
+
+.card-item{
+    border-bottom: 1px solid #E0E0E0;
+    padding: 10px 0px;
+    a{
+        transition: all 0.3s;
+        color: #000;
+        &:hover{
+            color: $primary-color;
+            transition: all 0.3s;
+        }
+    }
+}
+
+footer{
+    padding: 20px 0px;
+}
+
+.lower-footer{
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .social-links{
+        gap: 5px;
+        a{
+            height: 35px;
+            width: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.details-btn{
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 3px;
+    border-bottom: 1px solid #C0C0C0;
+    display: block;
+    width: 100%;
+    font-weight: 600;
 }
 
 .item-icon{

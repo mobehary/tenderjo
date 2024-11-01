@@ -16,6 +16,10 @@ $('.categories .owl-carousel').owlCarousel({
     }
 });
 
+// $(document).ready(function(){
+//     $(this).scrollTop(0);
+// });
+
 function preloader_end() {
     $('#loader').fadeOut();
     $('#loader-mask').delay(350).fadeOut('slow');
