@@ -14,4 +14,10 @@ $('.categories .owl-carousel').owlCarousel({
             items:5
         }
     }
-})
+});
+
+function preloader_end() {
+    $('#loader').fadeOut();
+    $('#loader-mask').delay(350).fadeOut('slow');
+  };
+  window.addEventListener("load", preloader_end);

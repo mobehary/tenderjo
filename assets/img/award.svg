@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<circle style="" cx="256" cy="256" r="256" fill="#bebebe" data-original="#2864f0"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path style="" d="M512,256c0-8.767-0.443-17.43-1.304-25.971L396.667,116l-18.723,28.118L340.826,107L130.5,136.5   l21.375,143.026l133.457,133.457l-103.999,34.684l64.099,64.099C248.939,511.908,252.458,512,256,512   C397.385,512,512,397.385,512,256z" fill="#bebebe" data-original="#27488f" class=""/>
+	<g>
+		<polygon style="" points="302,403 210,403 230,299 282,299   " fill="#ffffff" data-original="#ffb000" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="282,299 255.905,299 255.905,403 302,403   " fill="#ffffff" data-original="#ff9500" class=""/>
+	</g>
+	<g>
+		<path style="" d="M220.667,297.333h-15c-49.811,0-90.334-40.523-90.334-90.333v-91h105.334V297.333z M145.333,146v61    c0,28.092,19.298,51.761,45.334,58.446V146H145.333z" fill="#ffffff" data-original="#ffb000" class=""/>
+	</g>
+	<g>
+		<path style="" d="M306.333,297.333h-15V116h105.334v91C396.667,256.81,356.144,297.333,306.333,297.333z     M321.333,146v119.446c26.036-6.685,45.334-30.354,45.334-58.446v-61H321.333z" fill="#ffffff" data-original="#ff9500" class=""/>
+	</g>
+	<g>
+		<path style="" d="M256,313L256,313c-46.848,0-84.826-37.978-84.826-84.826V107h169.652v121.174    C340.826,275.022,302.848,313,256,313z" fill="#ffffff" data-original="#ffda00" class=""/>
+	</g>
+	<g>
+		<path style="" d="M255.905,107v205.998c0.032,0,0.063,0.002,0.095,0.002l0,0c46.848,0,84.826-37.978,84.826-84.826    V107H255.905z" fill="#ffffff" data-original="#ffb000" class=""/>
+	</g>
+	<g>
+		<rect x="181.333" y="385" style="" width="149.333" height="62.667" fill="#ffffff" data-original="#ffda00" class=""/>
+	</g>
+	<g>
+		<rect x="255.905" y="385" style="" width="74.762" height="62.667" fill="#ffffff" data-original="#ffb000" class=""/>
+	</g>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g></svg>

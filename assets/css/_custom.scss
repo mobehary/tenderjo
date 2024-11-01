@@ -329,7 +329,7 @@ textarea{
 p{
     @extend .fw-normal;
     @extend .font-normal;
-    line-height: 1.9;
+    // line-height: 1.9;
 }
 
 .form-control:focus{

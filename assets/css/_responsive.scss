@@ -1,3 +1,27 @@
+@media only screen and (max-width: 800px) {
+    nav .top-nav .support {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    nav .top-nav .line {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .button-container,
+    .ten-container,
+    .links-container {
+        display: none !important;
+    }
+
+    .instead {
+        display: block;
+    }
+}
+
 @media (max-width: 300px) {
 
 }
@@ -7,6 +31,11 @@
 }
 
 @media(max-width: 550px) {
+    #loader-mask{
+        img{
+            height: 80px !important;
+        }
+    }
 
 }
 @media(max-width: 767px) {
