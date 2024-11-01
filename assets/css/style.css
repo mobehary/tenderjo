@@ -1041,8 +1041,13 @@ input {
   color: #2D8694;
   transition: all 0.3s;
 }
+.card-item .company-img {
+  border: 1px solid #000;
+  padding: 0px 2px;
+}
 
 footer {
+  overflow: hidden;
   padding: 20px 0px;
 }
 
