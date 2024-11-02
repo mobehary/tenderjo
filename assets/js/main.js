@@ -5,10 +5,11 @@ $('.categories .owl-carousel').owlCarousel({
     nav:false,
     responsive:{
         0:{
-            items:1
+            items:1,
+            margin:10
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
             items:5
@@ -16,9 +17,11 @@ $('.categories .owl-carousel').owlCarousel({
     }
 });
 
-// $(document).ready(function(){
-//     $(this).scrollTop(0);
-// });
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
+$('.niceSelect').niceSelect({});
 
 function preloader_end() {
     $('#loader').fadeOut();

@@ -641,7 +641,7 @@ nav .bottom-nav {
 }
 
 .country-link:hover {
-  color: blue !important;
+  color: #2D8694 !important;
   transition: 0.3s;
 }
 
@@ -1019,6 +1019,7 @@ input {
 .footer .footer-links li a:hover {
   color: #2D8694;
   transition: all 0.3s;
+  margin-inline-start: 8px;
 }
 .footer .info a {
   color: #9383A3;
@@ -1027,6 +1028,51 @@ input {
 .footer .info a:hover {
   color: #2D8694;
   transition: all 0.3s;
+}
+.footer .apps a {
+  transition: all 0.3s;
+}
+.footer .apps a:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+.footer .social-links a {
+  transition: all 0.3s;
+}
+.footer .social-links a:hover {
+  transition: all 0.3s;
+  margin-top: -8px;
+  background-color: #2D8694 !important;
+}
+
+.links-container .dropdown-menu {
+  padding: 60px 0px 40px;
+}
+
+.see-more {
+  background-color: #EE781C;
+  transition: all 0.3s;
+}
+.see-more:hover {
+  background-color: #2D8694;
+  transition: all 0.3s;
+}
+
+.responsive-menu li button {
+  color: #FFF;
+}
+
+.w-fit-content {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.border-end-yellow {
+  border-inline-end: 1px solid #fedc45;
+}
+
+.text-yellow {
+  color: #fedc45;
 }
 
 .card-item {
@@ -1124,13 +1170,24 @@ footer {
   }
 }
 @media (max-width: 550px) {
+  .content.h-100 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
   #loader-mask img {
     height: 80px !important;
+  }
+  .categories {
+    margin-top: 30px;
   }
 }
 @media (max-width: 990px) {
   .home {
     height: 100%;
+  }
+  .card-header span {
+    font-size: 12px !important;
   }
 }
 /* navbar end *//*# sourceMappingURL=style.css.map */

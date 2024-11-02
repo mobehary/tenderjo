@@ -106,7 +106,7 @@ nav .bottom-nav {
 }
 
 .country-link:hover {
-    color: blue !important;
+    color: $primary-color !important;
     transition: 0.3s;
 }
 
@@ -513,6 +513,7 @@ input{
                 &:hover{
                     color: $primary-color;
                     transition: all 0.3s;
+                    margin-inline-start: 8px;
                 }
             }
             
@@ -528,6 +529,60 @@ input{
             }
         }
     }
+    .apps{
+        a{
+            transition: all 0.3s;
+            &:hover{
+                transition: all 0.3s;
+                transform: scale(1.1);
+            }
+        }
+    }
+    .social-links{
+        a{
+            transition: all 0.3s;
+            &:hover{
+                transition: all 0.3s;
+                margin-top: -8px;
+                background-color: $primary-color !important;
+            }
+        }
+    }
+}
+
+.links-container{
+    .dropdown-menu{
+        padding: 60px 0px 40px;
+    }
+}
+
+.see-more{
+    background-color: $secondary-color;
+    transition: all 0.3s;
+    &:hover{
+        background-color: $primary-color;
+        transition: all 0.3s;
+    }
+}
+
+.responsive-menu{
+    li{
+        button{
+            color: #FFF;
+        }
+    }
+}
+
+.w-fit-content{
+    width: fit-content;
+}
+
+.border-end-yellow{
+    border-inline-end: 1px solid #fedc45;
+}
+
+.text-yellow{
+    color: #fedc45;
 }
 
 .card-item{
